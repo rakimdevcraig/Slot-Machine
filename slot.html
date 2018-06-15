@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>House Hayden Slot Machine</title>
+  <link rel="stylesheet" href="css/slot.css">
+</head>
+
+<body>
+  <header>
+    <h1>Slot Machine</h1>
+  </header>
+  <section class="slot left">
+    <img id="firstSlot" src="img/tesla.png" alt="">
+    <button id="stopOne" type="button" name="button">Stop</button>
+  </section>
+
+  <section class="slot center">
+    <img id="secondSlot" src="img/tesla.png" alt="">
+    <button id="stopTwo" type="button" name="button">Stop</button>
+  </section>
+
+  <section class="slot right">
+    <img id="thirdSlot" src="img/tesla.png" alt="">
+    <button id="stopThree" type="button" name="button">Stop</button>
+  </section>
+
+  <section class="buttons">
+    <input id="money" placeholder="How many tokens">
+    <button id="enter" for="money">Enter</button>
+    <button id="start" type="button">Spin</button>
+    <button type="button" id="min">$1</button>
+    <button type="button" id="max">$2</button>
+  </section>
+
+  <section class="gamePot">
+    <span>Pot</span>
+    <h2 id="pot"></h2>
+  </section>
+
+  <section class="playerPot">
+    <span>Bank Account</span>
+    <h2 id="player"></h2>
+  </section>
+
+  <section>
+    <h4 id="results"></h4>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

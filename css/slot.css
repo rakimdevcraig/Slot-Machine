@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 20px;
+}
+header{
+  text-align: center;
+}
+.slot{
+  margin-top: 5%;
+  height: 300px;
+  width: 25%;
+  float: left;
+  border: 1px solid black;
+}
+.left{
+margin-left: 5%;
+margin-right: 3%;
+}
+.center{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.right{
+  margin-left: 3%;
+  margin-right: 5%;
+}
+.slot img{
+  height: 250px;
+  width: 100%;
+}
+.buttons, .playerPot, .gamePot{
+  width: 33%;
+  float: left;
+}
+
+.bet{
+  width: 100%;
+  clear: both;
+  margin: 0 auto;
+}
