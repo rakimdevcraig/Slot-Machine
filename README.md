@@ -3,7 +3,7 @@ Slot Machine
 This project is a simple slot machine with cars that allows the user to purchase tokens and use those tokens to bet on a spin of 3 cars. To win your money you put in have to stop the spin on the same car 2 out of 3 spins but if you get all three spins to match you win the pot if you do neither you lose.
 
 ![slot](img/readme.jpg)
-Demo:
+Demo:https://rakimdevcraig.github.io/Slot-Machine/
 
 How It's Made:
 
